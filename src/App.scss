@@ -1,0 +1,37 @@
+.card {
+  text-align: center;
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: -1px 10px 34px -17px rgba(0,0,0,0.75);
+  border-radius: 15px;
+}
+
+#correct {
+  height: 50px;
+  line-height: 50px;
+  background: rgb(85,255,167);
+  background: linear-gradient(90deg, rgba(85,255,167,0) 0%, rgba(116,255,142,1) 50%, rgba(70,210,255,0) 100%);
+}
+
+h1 {
+  color: gray;
+}
+
+.header-red {
+  h1 {
+    color: red
+  }
+}
+
+.header-pink {
+  h1 {
+    color: pink
+  }
+}
+
+.header-violet {
+  h1 {
+    color: violet
+  }
+}
