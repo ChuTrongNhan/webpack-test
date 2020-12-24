@@ -78,12 +78,12 @@ module.exports = {
       chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
-      template: __dirname + "/src/screens/admin/index.html",
+      template: __dirname + "/src/index.html",
       filename: "admin.html",
       chunks: ["admin"],
     }),
     new HtmlWebpackPlugin({
-      template: __dirname + "/src/screens/customer/index.html",
+      template: __dirname + "/src/index.html",
       filename: "customer.html",
       chunks: ["customer"],
     }),

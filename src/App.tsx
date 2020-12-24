@@ -1,5 +1,7 @@
 import * as React from "react";
 import "./App.scss";
+import { Provider } from 'react-redux';
+import store from './stores/store.js';
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import Home from "./screens/Home";
 import About from "./screens/About";
@@ -7,6 +9,7 @@ import Dashboard from "./screens/Dashboard";
 
 const App = () => {
   return (
+    <Provider store={store}>
     <BrowserRouter>
       <div>
         <p>
@@ -34,6 +37,7 @@ const App = () => {
         </Route>
       </Switch>
     </BrowserRouter>
+    </Provider>
   );
 };
 
